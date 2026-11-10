@@ -1,0 +1,51 @@
+
+# Visual Studio temporary files
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# .NET build outputs
+**/bin/
+**/obj/
+**/Debug/
+**/Release/
+
+# Test results
+TestResults/
+**/TestResults/
+*.trx
+
+# NuGet packages
+*.nupkg
+packages/
+
+# Logs
+*.log
+logs/
+Logs/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+**/appsettings.Development.json
+**/appsettings.Local.json
+**/secrets.json
+**/secrets/
+*.pfx
+*.p12
+*.pem
+*.key
+
+# Publish output
+publish/
+**/publish/
+
+# Docker local overrides
+docker-compose.override.yml
